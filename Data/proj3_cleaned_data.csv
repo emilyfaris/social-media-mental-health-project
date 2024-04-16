@@ -1,0 +1,480 @@
+Age,Gender,RelationshipStatus,Occupation,Organization,SocialMedia,SocialMediaPlatforms,NumberofSocialMediaPlatforms,Frequency,Distraction,Restlessness,Anxiety,ConcentrationDifficulty,SelfComparision,PostSentiment,ValidationSeeking,Depression,ActivityInterest Variance,Sleeplessness,YouTube,Discord,Snapchat,Instagram,TikTok,Facebook,Twitter,Reddit,Pinterest,Less than 2hrs,2 to 5 hrs,More than 5 hrs
+21.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",6,5,3,2,2,5,2,3,2,5,4,5,1,1,0,1,0,1,1,1,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",6,4,3,2,5,4,5,1,1,5,4,5,1,1,0,1,0,1,1,1,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,2,2,1,5,4,3,3,1,4,2,5,1,0,0,1,0,1,0,0,1,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram",2,3,2,1,5,3,5,1,2,4,3,2,0,0,0,1,0,1,0,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,4,5,4,5,5,3,3,3,4,4,1,1,0,0,1,0,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest, TikTok",7,3,4,2,4,3,4,4,3,3,2,4,1,1,0,1,1,1,1,0,1,0,1,0
+21.0,Female,Married,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",5,2,3,2,4,3,5,3,4,5,5,3,1,0,1,1,1,1,0,0,0,0,1,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube",3,3,2,3,3,1,1,3,1,5,5,1,1,0,0,1,0,1,0,0,0,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube",3,3,2,3,1,1,1,3,1,5,5,1,1,0,0,1,0,1,0,0,0,0,0,0
+20.0,Male,Single,University Student,University,No,"Reddit, Pinterest",2,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0
+24.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,4,5,2,3,5,4,2,3,5,4,5,1,1,0,1,0,1,0,0,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",8,5,4,2,3,4,2,2,3,3,4,2,1,1,1,1,1,1,0,1,1,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",8,4,4,2,4,2,4,2,1,3,1,5,1,1,1,1,0,1,1,1,1,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Reddit, Pinterest",7,1,3,2,4,4,2,3,2,3,3,3,1,0,1,1,0,1,1,1,1,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Pinterest",3,5,5,5,5,5,5,5,5,5,5,5,1,0,0,0,0,1,0,0,1,0,0,0
+23.0,Male,In a relationship,University Student,Company,Yes,"Facebook, Instagram, YouTube, Reddit",4,3,4,2,4,4,3,2,2,3,4,2,1,0,0,1,0,1,0,1,0,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Discord",3,2,2,1,4,2,1,3,1,4,1,3,1,1,0,0,0,1,0,0,0,0,0,0
+25.0,Male,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Reddit",4,4,5,4,3,3,1,4,2,2,2,2,1,0,0,1,0,1,0,1,0,0,1,0
+28.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Discord, Reddit",4,4,4,2,5,5,2,3,1,3,3,1,1,1,0,0,0,1,0,1,0,0,0,0
+34.0,Male,Divorced,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,3,4,3,4,1,1,5,3,2,2,2,1,0,0,1,0,1,1,0,0,0,0,0
+22.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",5,3,2,2,3,2,2,2,1,2,3,2,1,1,0,1,0,1,0,1,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, TikTok",7,2,2,4,4,2,5,2,1,3,3,1,1,1,0,1,1,1,1,1,0,0,0,0
+26.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,3,4,3,4,4,4,3,3,4,4,4,1,0,0,1,0,1,0,0,1,0,1,0
+23.0,Female,Married,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",5,4,2,2,4,3,3,2,3,4,4,1,1,0,1,1,0,1,0,0,1,0,0,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, YouTube, Discord",4,5,3,5,5,5,4,1,3,3,5,5,1,1,0,0,0,1,1,0,0,0,1,0
+35.0,Female,Married,Salaried Worker,School,Yes,"Facebook, YouTube",2,3,4,3,3,3,4,4,4,4,2,2,1,0,0,0,0,1,0,0,0,0,1,0
+20.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,3,4,3,3,4,2,3,3,4,3,4,1,1,0,1,0,1,0,0,0,0,1,0
+35.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,4,4,4,4,4,4,4,4,4,4,5,1,0,0,1,0,1,1,0,0,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",7,4,4,3,5,4,4,3,2,4,4,1,1,1,1,1,1,1,0,0,1,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,4,5,5,4,4,4,3,5,4,1,1,1,1,1,0,1,0,0,0,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,3,4,3,5,4,5,2,3,5,4,3,1,1,0,1,0,1,0,0,0,0,1,0
+35.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube, Pinterest",3,3,4,3,3,2,2,2,2,3,4,2,1,0,0,0,0,1,0,0,1,0,1,0
+24.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, TikTok",4,3,3,3,3,4,2,3,3,2,3,3,1,0,0,1,1,1,0,0,0,0,1,0
+18.0,Female,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",5,3,3,3,4,3,3,2,4,3,3,2,1,1,0,1,0,1,0,0,1,0,1,0
+19.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,5,5,5,5,5,2,3,1,5,4,4,1,1,0,1,0,1,0,0,0,0,1,0
+21.0,Non binary ,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",5,4,4,5,4,5,1,3,1,4,2,1,1,1,0,1,0,1,1,0,0,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Instagram",2,3,3,4,2,3,5,3,4,3,3,1,0,0,0,1,0,1,0,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",7,1,3,1,1,3,1,3,1,5,4,5,1,1,1,1,0,1,1,1,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",5,4,5,5,4,4,2,3,3,2,2,5,1,0,1,1,0,1,0,0,1,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Discord",3,4,4,2,3,5,1,3,1,1,3,4,1,1,0,0,0,1,0,0,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,1,1,1,1,1,2,1,2,3,3,1,1,0,1,1,0,1,0,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,5,2,3,3,3,4,2,4,2,2,1,0,1,1,0,1,0,0,0,0,1,0
+56.0,Female,Married,Retired,Government,Yes,YouTube,1,1,1,1,3,1,1,3,1,2,3,1,1,0,0,0,0,0,0,0,0,0,0,0
+19.0,Female,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",5,4,2,4,5,4,5,2,1,5,4,2,1,0,1,1,0,1,0,0,1,0,0,0
+24.0,Male,Single,Salaried Worker,Company,Yes,"Twitter, Discord, Reddit",3,3,1,1,3,3,1,3,3,3,3,3,0,1,0,0,0,0,1,1,0,0,0,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube",3,4,5,4,5,2,3,3,3,3,2,3,1,0,0,1,0,1,0,0,0,0,0,0
+65.0,Male,Married,Retired,Government,Yes,"Facebook, YouTube",2,2,3,2,2,1,3,4,3,1,3,2,1,0,0,0,0,1,0,0,0,0,1,0
+17.0,Female,Single,School Student,School,Yes,"Instagram, YouTube, Reddit, Pinterest",4,3,3,1,5,3,4,2,1,3,5,1,1,0,0,1,0,0,0,1,1,0,1,0
+40.0,Male,Married,Salaried Worker,Company,Yes,"Twitter, YouTube, Reddit",3,3,3,3,2,3,2,3,1,2,2,1,1,0,0,0,0,0,1,1,0,0,1,0
+33.0,Female,Single,Salaried Worker,School,Yes,"Facebook, YouTube",2,3,3,1,2,1,2,2,1,1,1,1,1,0,0,0,0,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,4,4,3,3,2,1,3,3,3,4,4,1,1,1,1,1,1,1,1,1,0,1,0
+24.0,Male,Single,Salaried Worker,Company,Yes,"YouTube, Snapchat, Discord",3,5,5,5,4,5,2,2,1,3,5,1,1,1,1,0,0,0,0,0,0,0,0,0
+26.0,Male,Single,University Student,University,Yes,Facebook,1,5,5,3,5,5,5,5,5,5,5,5,0,0,0,0,0,1,0,0,0,0,0,0
+55.0,Male,Married,Salaried Worker,Company,Yes,"Discord, Reddit",2,3,2,1,2,1,1,3,1,1,2,1,0,1,0,0,0,0,0,1,0,0,0,0
+26.0,Male,In a relationship,Salaried Worker,Company,No,"YouTube, Discord, Reddit",3,2,1,1,2,1,1,3,1,1,3,2,1,1,0,0,0,0,0,1,0,0,0,0
+27.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Reddit, TikTok",7,4,5,5,4,5,3,3,4,5,2,3,1,0,1,1,1,1,1,1,0,0,0,0
+22.0,Male,Married,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",6,2,2,1,4,2,1,3,1,3,4,2,1,1,1,1,0,1,0,1,0,0,0,0
+19.0,Female,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",5,2,2,2,4,3,3,3,2,4,4,5,1,1,0,1,0,1,0,0,1,0,1,0
+22.0,Female,Married,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,4,5,2,4,4,3,3,4,5,4,2,1,1,1,1,1,1,1,1,1,0,1,0
+20.0,Female,Married,University Student,University,Yes,"Instagram, Reddit",2,2,1,1,2,2,1,3,1,1,3,5,0,0,0,1,0,0,0,1,0,0,0,0
+25.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",5,4,3,3,4,4,2,2,2,4,3,4,1,1,0,1,0,1,1,0,0,0,0,0
+25.0,Female,Married,University Student,University,Yes,"YouTube, Reddit",2,3,2,1,5,4,5,2,4,4,5,4,1,0,0,0,0,0,0,1,0,0,0,0
+18.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,5,4,3,4,3,1,3,1,5,4,5,1,0,0,1,0,1,0,0,1,0,0,0
+25.0,Male,Single,Salaried Worker,Government,Yes,Reddit,1,3,1,1,2,4,1,3,1,5,1,5,0,0,0,0,0,0,0,1,0,0,0,0
+19.0,Female,Single,University Student,University,Yes,"Discord, Reddit",2,5,3,1,3,5,1,3,1,1,5,4,0,1,0,0,0,0,0,1,0,0,1,0
+24.0,Male,In a relationship,School Student,University,Yes,"YouTube, Discord, Reddit",3,3,2,4,2,2,1,3,2,2,4,4,1,1,0,0,0,0,0,1,0,0,0,0
+21.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, Reddit, TikTok",4,5,5,5,5,5,5,2,4,4,4,1,0,0,0,1,1,1,0,1,0,0,1,0
+18.0,Non binary ,Single,School Student,School,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",5,3,1,2,5,3,2,3,2,4,2,4,1,0,0,1,1,0,1,1,0,0,1,0
+14.0,Male,Single,School Student,School,Yes,Reddit,1,3,2,2,5,3,3,4,2,4,4,4,0,0,0,0,0,0,0,1,0,0,0,0
+25.0,Male,Single,University Student,University,Yes,"YouTube, Snapchat, Discord, Reddit",4,3,4,3,3,2,3,2,2,3,4,4,1,1,1,0,0,0,0,1,0,0,1,0
+33.0,Male,Married,Salaried Worker,Company,Yes,"Instagram, YouTube",2,2,4,3,2,2,1,1,1,1,2,2,1,0,0,1,0,0,0,0,0,0,1,0
+23.0,Male,Single,School Student,School,Yes,"Instagram, YouTube, Discord, Reddit",4,5,5,5,5,5,5,5,5,5,5,5,1,1,0,1,0,0,0,1,0,0,1,0
+14.0,Female,Single,School Student,School,Yes,"Twitter, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",7,2,4,2,4,2,4,2,4,4,4,5,1,0,1,1,1,0,1,1,1,0,0,0
+38.0,Male,Married,Salaried Worker,University,Yes,"Twitter, YouTube, Discord, Reddit",4,3,2,1,2,1,1,3,1,2,1,2,1,1,0,0,0,0,1,1,0,0,0,0
+23.0,Female,Single,Retired,Government,Yes,"Facebook, YouTube, Discord, Reddit",4,3,4,3,4,5,3,2,4,5,5,4,1,1,0,0,0,1,0,1,0,0,1,0
+26.0,Male,Single,Salaried Worker,Company,Yes,Reddit,1,3,1,1,2,1,1,1,1,2,3,4,0,0,0,0,0,0,0,1,0,0,0,0
+24.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Reddit",3,4,5,3,3,2,2,3,4,5,4,2,1,0,0,0,0,1,0,1,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",7,4,3,4,5,4,5,1,2,4,4,2,1,1,1,1,1,1,1,0,0,0,1,0
+18.0,Female,Single,University Student,University,Yes,"Facebook, YouTube, Reddit",3,3,3,3,5,5,4,3,1,5,5,5,1,0,0,0,0,1,0,1,0,0,1,0
+28.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Discord, Reddit",4,3,5,4,5,5,5,2,1,5,3,5,1,1,0,0,0,1,0,1,0,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",6,5,4,4,5,5,3,3,1,4,4,5,1,1,1,1,0,0,1,1,0,0,1,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",7,5,4,2,4,4,3,3,2,1,5,4,1,1,1,1,0,1,0,1,1,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit",5,5,5,3,4,5,2,3,2,4,5,2,1,1,1,1,0,0,0,1,0,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,5,5,5,3,5,4,4,3,4,5,5,1,0,0,1,0,1,0,0,1,0,1,0
+17.0,Male,Single,School Student,School,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",5,4,4,3,5,4,3,2,4,2,4,2,1,0,0,1,0,1,1,1,0,0,1,0
+24.0,Non binary ,Single,Salaried Worker,Government,Yes,"YouTube, Reddit",2,3,3,2,5,2,3,2,2,4,3,1,1,0,0,0,0,0,0,1,0,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, YouTube",2,4,4,3,1,3,1,2,2,2,4,4,1,0,0,0,0,1,0,0,0,0,0,0
+32.0,Female,Married,Salaried Worker,Company,Yes,Reddit,1,5,3,2,2,5,2,4,1,1,2,1,0,0,0,0,0,0,0,1,0,0,0,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, YouTube",2,2,4,2,1,3,1,3,5,3,2,2,1,0,0,0,0,1,0,0,0,0,1,0
+20.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",5,5,5,4,5,5,4,2,4,5,5,4,1,0,1,1,0,1,0,0,1,0,1,0
+22.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,5,2,4,4,2,3,2,4,4,3,1,0,1,1,0,1,0,0,0,0,1,0
+28.0,Female,Single,University Student,University,Yes,"Facebook, YouTube",2,5,5,4,5,5,2,3,2,4,5,2,1,0,0,0,0,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",5,4,3,3,5,4,1,3,2,4,2,1,1,0,1,1,0,1,1,0,0,0,0,0
+30.0,Female,Single,Salaried Worker,University,Yes,Instagram,1,2,5,3,4,4,3,3,3,4,4,4,0,0,0,1,0,0,0,0,0,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,3,5,1,2,5,2,1,1,3,1,5,1,1,1,1,0,1,0,0,0,0,0,0
+14.0,Male,Single,School Student,School,Yes,"Instagram, YouTube, Discord",3,4,5,2,2,3,1,3,1,1,3,5,1,1,0,1,0,0,0,0,0,0,1,0
+20.0,Male,Single,School Student,School,Yes,"YouTube, Reddit",2,2,2,1,1,1,2,2,1,4,3,2,1,0,0,0,0,0,0,1,0,0,0,0
+22.0,Female,Single,School Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,4,4,4,4,5,5,3,4,5,5,3,1,0,0,1,0,1,0,0,1,0,0,0
+16.0,Male,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",6,5,5,2,3,4,3,1,4,2,1,3,1,1,1,1,1,1,0,0,0,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube",4,4,4,3,4,3,2,2,3,3,2,3,1,0,0,1,0,1,1,0,0,0,1,0
+22.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",8,4,4,3,4,2,1,1,1,5,3,5,1,1,1,1,0,1,1,1,1,0,0,0
+22.0,Male,Single,University Student,University,Yes,Instagram,1,3,4,3,4,3,2,3,3,4,3,3,0,0,0,1,0,0,0,0,0,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",6,3,3,4,5,5,3,3,4,3,5,5,1,0,1,1,0,1,1,0,1,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",5,3,3,4,3,3,3,4,4,1,3,3,1,0,1,1,0,1,0,0,1,0,1,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, YouTube",2,3,3,4,3,3,3,4,3,2,4,5,1,0,0,0,0,1,0,0,0,0,1,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, TikTok",3,4,2,2,2,2,1,3,3,3,4,5,0,0,0,1,1,1,0,0,0,0,1,0
+48.0,Female,Married,Salaried Worker,School,Yes,"Facebook, YouTube",2,1,1,1,3,2,1,3,2,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,2,1,2,3,2,1,3,2,2,5,1,0,1,1,0,1,0,0,0,0,1,0
+47.0,Female,Married,Salaried Worker,Government,Yes,"Facebook, Instagram, YouTube, Pinterest",4,3,3,3,2,2,2,3,3,3,3,3,1,0,0,1,0,1,0,0,1,0,1,0
+48.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube",3,4,3,4,4,4,4,3,3,2,3,3,1,0,0,1,0,1,0,0,0,0,1,0
+26.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Pinterest",4,4,5,4,5,3,5,4,3,4,2,3,1,0,0,1,0,1,0,0,1,0,0,0
+47.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,4,3,4,3,3,2,3,1,2,2,4,1,0,0,0,0,1,0,0,0,0,1,0
+47.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, Snapchat",3,3,4,3,3,3,3,3,2,2,3,4,0,0,1,1,0,1,0,0,0,0,0,0
+27.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,5,4,3,2,5,1,4,4,4,1,1,0,1,1,0,1,0,0,0,0,0,0
+34.0,Female,Married,Salaried Worker,School,Yes,Facebook,1,5,5,4,3,1,3,3,3,2,5,4,0,0,0,0,0,1,0,0,0,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram",2,5,5,5,5,5,3,1,1,3,3,5,0,0,0,1,0,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,Facebook,1,4,4,5,5,4,3,3,4,3,3,4,0,0,0,0,0,1,0,0,0,0,0,0
+23.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",6,5,5,5,5,4,5,5,4,5,4,5,1,1,1,1,1,1,0,0,0,0,0,0
+20.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,4,5,3,3,5,2,3,3,4,4,5,1,0,0,1,0,1,0,0,0,0,1,0
+48.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram",2,3,4,1,2,1,1,3,2,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, TikTok",4,2,3,1,4,2,4,2,1,3,3,3,1,0,0,1,1,1,0,0,0,0,1,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, YouTube, Snapchat, Pinterest",4,5,5,5,2,5,2,3,1,5,4,3,1,0,1,0,0,1,0,0,1,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,5,4,5,5,3,1,1,4,2,2,1,0,1,1,0,1,0,0,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,Instagram,1,3,5,3,2,3,4,5,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,4,3,4,3,2,2,2,4,5,3,1,0,1,1,0,1,0,0,0,0,0,0
+24.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",6,3,1,3,4,4,3,3,2,4,4,4,1,1,1,1,0,1,1,0,0,0,1,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6,3,2,4,5,3,5,1,4,4,2,5,1,0,1,1,1,1,0,0,1,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,2,2,1,1,1,5,1,1,4,5,3,1,0,0,1,0,1,0,0,0,0,1,0
+16.0,Male,Single,School Student,School,Yes,"Instagram, YouTube, Snapchat, Pinterest",4,3,1,2,3,2,2,4,1,3,3,2,1,0,1,1,0,0,0,0,1,0,1,0
+50.0,Female,Single,Salaried Worker,School,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",5,3,1,1,3,2,1,4,3,1,1,4,1,1,0,1,0,1,0,0,1,0,1,0
+47.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,3,2,2,2,1,4,2,3,3,2,2,1,0,0,0,0,1,0,0,0,0,0,0
+24.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,3,3,2,4,3,2,4,2,3,1,4,1,0,0,1,0,1,1,0,0,0,1,0
+38.0,Female,Married,Salaried Worker,School,Yes,Facebook,1,2,2,3,2,1,3,1,1,2,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+50.0,Male,Divorced,Salaried Worker,Company,No,"Instagram, YouTube",2,2,1,1,2,2,1,4,1,2,2,1,1,0,0,1,0,0,0,0,0,0,0,0
+49.0,Male,Married,Retired,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",5,3,5,3,4,3,3,3,3,4,4,5,1,0,0,1,0,1,1,0,1,0,1,0
+47.0,Female,Married,Salaried Worker,Government,Yes,"Facebook, YouTube, Pinterest",3,3,3,3,3,2,1,3,1,1,1,4,1,0,0,0,0,1,0,0,1,0,1,0
+48.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",5,3,3,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1,0,1,0
+51.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",6,3,3,2,3,4,3,3,3,3,3,3,1,0,1,1,0,1,1,0,1,0,0,0
+50.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,5,3,4,5,4,3,4,3,4,4,2,1,0,0,1,0,1,1,0,0,0,1,0
+47.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",5,2,2,2,2,2,3,4,1,1,2,1,1,0,0,1,0,1,1,0,1,0,1,0
+27.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube",3,5,5,2,5,5,5,2,3,3,5,4,1,0,0,1,0,1,0,0,0,0,1,0
+40.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,2,2,1,4,3,3,3,3,4,3,1,1,0,0,1,0,1,1,0,0,0,0,0
+46.0,Male,Divorced,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",5,1,1,1,2,1,1,3,5,2,2,2,1,0,1,1,0,1,1,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,3,3,4,3,2,5,2,3,5,5,5,1,1,1,1,0,1,0,0,0,0,1,0
+47.0,Female,Married,Salaried Worker,Company,Yes,Facebook,1,3,4,3,2,2,4,2,3,3,3,3,0,0,0,0,0,1,0,0,0,0,0,0
+20.0,Female,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",7,4,4,3,4,4,5,1,4,4,3,4,1,1,1,1,0,1,1,0,1,0,0,0
+47.0,Female,Married,Salaried Worker,University,Yes,"Facebook, Twitter, Instagram, YouTube",4,4,4,3,5,4,2,2,1,2,3,2,1,0,0,1,0,1,1,0,0,0,0,0
+48.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube",3,3,3,3,2,2,3,3,3,2,3,2,1,0,0,1,0,1,0,0,0,0,1,0
+49.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,2,3,2,2,2,2,4,2,2,2,4,1,0,0,0,0,1,0,0,0,0,1,0
+21.0,Male,In a relationship,University Student,University,Yes,"Facebook, YouTube, Discord",3,1,2,1,2,2,2,4,3,2,2,2,1,1,0,0,0,1,0,0,0,0,1,0
+32.0,Female,Married,Salaried Worker,School,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",5,3,2,4,2,1,1,5,1,1,2,5,1,1,0,1,0,1,0,0,1,0,1,0
+47.0,Female,Married,Salaried Worker,University,Yes,"Twitter, Instagram, YouTube",3,3,1,2,2,2,3,3,2,2,2,3,1,0,0,1,0,0,1,0,0,0,1,0
+50.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, YouTube",3,3,1,2,2,2,1,1,3,3,2,2,1,0,0,0,0,1,1,0,0,0,0,0
+48.0,Male,Divorced,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,2,1,1,4,2,1,3,3,4,2,5,1,0,0,1,0,1,1,0,0,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,5,2,1,4,5,3,3,2,3,5,4,1,0,0,1,0,1,0,0,1,0,1,0
+47.0,Male,Married,Salaried Worker,Company,Yes,Twitter,1,5,1,2,3,4,2,3,1,2,4,4,0,0,0,0,0,0,1,0,0,0,0,0
+36.0,Female,Married,Salaried Worker,School,Yes,YouTube,1,2,2,1,4,4,1,1,1,1,1,4,1,0,0,0,0,0,0,0,0,0,1,0
+37.0,Female,Married,Retired,Company,Yes,"Facebook, Instagram, YouTube",3,2,1,2,1,3,1,2,2,4,2,4,1,0,0,1,0,1,0,0,0,0,0,0
+19.0,Female,In a relationship,School Student,School,Yes,Facebook,1,3,4,4,5,4,2,5,4,4,5,5,0,0,0,0,0,1,0,0,0,0,1,0
+30.0,Male,In a relationship,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube",3,2,2,1,2,1,4,2,2,2,2,5,1,0,0,1,0,1,0,0,0,0,0,0
+48.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,1,1,1,1,1,5,3,2,1,5,2,1,1,1,1,1,1,1,1,1,0,0,0
+48.0,Female,Married,Retired,Company,Yes,"Facebook, Instagram, YouTube, Pinterest, TikTok",5,5,5,5,4,5,3,3,2,3,5,4,1,0,0,1,1,1,0,0,1,0,0,0
+48.0,Male,Married,Salaried Worker,Company,Yes,"Twitter, YouTube",2,3,2,3,4,3,2,3,2,3,3,4,1,0,0,0,0,0,1,0,0,0,1,0
+47.0,Male,Married,Salaried Worker,University,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",5,5,2,3,5,5,2,5,2,3,2,4,1,0,0,1,1,0,1,1,0,0,1,0
+47.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Twitter",2,3,2,2,2,2,4,3,2,2,2,2,0,0,0,0,0,1,1,0,0,0,0,0
+48.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube, Pinterest",3,2,1,1,2,1,1,1,1,2,1,4,1,0,0,0,0,1,0,0,1,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",5,3,4,2,2,1,3,5,3,2,1,4,1,0,0,1,0,1,1,0,1,0,1,0
+48.0,Male,Married,Salaried Worker,Company,Yes,"Twitter, YouTube",2,2,2,1,1,1,2,3,1,1,2,2,1,0,0,0,0,0,1,0,0,0,0,0
+21.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",6,4,3,2,3,3,2,3,1,2,2,1,1,1,1,1,0,1,1,0,0,0,0,0
+20.0,Male,Single,University Student,University,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",7,4,5,5,2,4,3,3,1,3,3,4,1,1,1,1,1,0,1,1,0,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, YouTube",2,4,5,4,5,5,5,2,2,3,4,4,1,0,0,0,0,1,0,0,0,0,1,0
+20.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,3,5,2,4,5,3,2,4,5,5,5,1,0,0,1,0,1,0,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,4,4,4,2,4,3,4,3,3,1,1,0,1,1,0,1,0,0,0,0,0,0
+20.0,Female,In a relationship,University Student,University,Yes,"Instagram, YouTube, Pinterest",3,5,3,5,4,4,5,4,3,4,4,5,1,0,0,1,0,0,0,0,1,0,1,0
+47.0,Male,Married,Salaried Worker,Company,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",5,2,3,3,4,3,1,2,1,1,2,1,1,0,0,1,1,0,1,1,0,0,1,0
+35.0,Female,Divorced,Salaried Worker,School,Yes,"Facebook, YouTube",2,1,2,1,1,1,1,3,4,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+23.0,Female,Single,University Student,University,Yes,Pinterest,1,4,3,3,3,5,1,3,3,4,3,5,0,0,0,0,0,0,0,0,1,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",6,5,5,4,5,4,3,2,1,3,5,5,1,0,1,1,0,1,1,0,1,0,1,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,2,2,5,4,1,3,2,4,4,2,1,1,0,0,1,0,1,0,0,1,0,1,0
+37.0,Female,Married,Salaried Worker,University,Yes,"Facebook, YouTube",2,3,4,4,5,2,5,2,2,4,4,5,1,0,0,0,0,1,0,0,0,0,0,0
+48.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,3,2,2,2,2,2,3,3,3,3,4,1,0,0,1,0,1,1,0,0,0,0,0
+47.0,Male,Married,Salaried Worker,Government,Yes,"Facebook, YouTube, TikTok",3,2,1,1,4,2,3,3,2,1,2,3,1,0,0,0,1,1,0,0,0,0,0,0
+25.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest, TikTok",7,4,4,5,5,4,2,4,4,5,3,2,1,0,0,1,1,1,1,1,1,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",8,5,5,4,4,3,2,3,3,3,4,4,1,1,1,1,1,1,1,0,1,0,0,0
+45.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,3,2,3,3,3,3,2,2,2,2,2,1,0,0,0,0,1,0,0,0,0,1,0
+47.0,Male,Married,Salaried Worker,Company,Yes,"Instagram, YouTube",2,4,3,2,3,2,2,3,3,3,2,1,1,0,0,1,0,0,0,0,0,0,0,0
+47.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",5,3,5,2,3,1,3,3,1,3,3,1,1,0,0,1,0,1,1,0,1,0,1,0
+24.0,Female,Married,University Student,Company,Yes,"Facebook, Instagram, Pinterest",3,3,3,4,4,5,3,3,3,4,3,4,0,0,0,1,0,1,0,0,1,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,Instagram,1,5,5,5,1,5,2,5,5,2,5,5,0,0,0,1,0,0,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, YouTube, Discord, Reddit, Pinterest",5,2,2,2,2,2,1,3,3,4,2,1,1,1,0,0,0,1,0,1,1,0,1,0
+19.0,Female,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",7,3,4,3,3,3,3,5,3,4,3,1,1,1,1,1,1,1,0,0,1,0,1,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,3,2,2,4,3,2,1,4,4,4,1,0,1,1,0,1,0,0,0,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,3,3,5,3,2,3,4,5,3,4,1,0,1,1,0,1,0,0,0,0,0,0
+20.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",6,4,5,4,5,4,1,3,4,4,5,5,1,1,1,1,1,1,0,0,0,0,1,0
+42.0,Female,Married,Salaried Worker,School,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",5,1,1,1,1,1,1,3,1,1,3,1,1,1,0,1,0,1,0,0,1,0,1,0
+35.0,Female,Married,Salaried Worker,School,Yes,Facebook,1,2,3,2,1,3,2,4,1,3,2,2,0,0,0,0,0,1,0,0,0,0,1,0
+38.0,Male,Married,Salaried Worker,University,Yes,"Facebook, Twitter, YouTube, Discord, Reddit",5,2,3,3,3,2,3,4,3,2,2,2,1,1,0,0,0,1,1,1,0,0,1,0
+17.0,Male,Single,School Student,School,Yes,"Facebook, Instagram, YouTube",3,2,2,2,2,1,1,2,1,1,1,2,1,0,0,1,0,1,0,0,0,0,0,0
+32.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube, Discord, Reddit",4,2,1,3,2,1,1,3,1,1,2,1,1,1,0,0,0,1,0,1,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",6,5,3,2,4,5,4,2,2,2,3,2,1,1,1,1,0,1,1,0,0,0,0,0
+22.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",6,2,2,2,4,3,2,4,2,3,2,5,1,1,1,1,0,1,0,1,0,0,1,0
+27.0,Female,Married,University Student,University,Yes,"Facebook, Instagram, YouTube",3,3,5,3,3,3,1,3,1,3,3,4,1,0,0,1,0,1,0,0,0,0,0,0
+21.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, TikTok",6,5,5,3,5,5,5,2,4,3,5,3,1,1,0,1,1,1,0,1,0,0,1,0
+27.0,Male,Married,Salaried Worker,University,Yes,"Facebook, Discord, Reddit",3,5,5,5,5,5,1,3,1,5,5,5,0,1,0,0,0,1,0,1,0,0,0,0
+20.0,Male,Single,School Student,School,Yes,"Instagram, Discord, Reddit, Pinterest, TikTok",5,2,2,3,3,2,3,2,3,2,1,4,0,1,0,1,1,0,0,1,1,0,1,0
+27.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube",3,5,4,4,4,3,2,2,1,1,3,2,1,0,0,1,0,1,0,0,0,0,1,0
+24.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,5,5,5,1,5,5,4,1,5,5,4,1,1,0,1,0,1,0,0,0,0,1,0
+26.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",5,1,2,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,0,0,1,0,1,0
+20.0,Female,Single,University Student,University,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",8,2,1,1,5,3,5,4,3,4,3,4,1,1,1,1,1,0,1,1,1,0,1,0
+31.0,Male,Single,Salaried Worker,School,Yes,"Facebook, Instagram, YouTube, Discord",4,3,3,3,4,3,4,4,4,3,3,2,1,1,0,1,0,1,0,0,0,0,1,0
+21.0,Male,Single,University Student,University,Yes,"YouTube, Discord, Reddit",3,1,1,1,1,1,1,3,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0
+34.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube, TikTok",3,3,3,2,3,4,4,4,5,5,5,5,1,0,0,0,1,1,0,0,0,0,0,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Snapchat",3,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,0,0,0,0,0,0
+20.0,Female,In a relationship,University Student,University,Yes,Instagram,1,3,3,1,5,3,2,3,5,4,5,1,0,0,0,1,0,0,0,0,0,0,0,0
+23.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",6,1,2,1,3,1,1,3,1,3,2,1,1,1,0,1,0,1,1,1,0,0,1,0
+48.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,1,1,1,1,1,5,5,3,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+37.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,3,4,1,4,4,4,4,3,2,3,2,1,0,0,0,0,1,0,0,0,0,0,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,3,2,4,4,4,4,3,5,4,4,1,0,1,1,0,1,0,0,0,0,0,0
+50.0,Male,Single,Salaried Worker,Company,Yes,Facebook,1,3,2,3,3,5,4,5,5,2,4,3,0,0,0,0,0,1,0,0,0,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",5,5,4,4,5,5,4,2,3,3,4,4,1,0,1,1,0,1,1,0,0,0,0,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",7,3,4,1,2,2,1,2,1,2,4,1,1,1,1,1,0,1,1,0,1,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, YouTube",2,3,3,1,4,3,5,2,3,3,4,3,1,0,0,0,0,1,0,0,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",7,3,3,3,3,2,2,3,3,3,3,3,1,1,1,1,0,1,1,0,1,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,Facebook,1,4,1,4,3,4,3,4,3,4,4,3,0,0,0,0,0,1,0,0,0,0,0,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",5,3,5,3,3,4,5,3,3,2,4,3,1,0,1,1,1,1,0,0,0,0,0,0
+19.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",6,3,4,5,5,4,5,1,5,4,4,3,1,1,1,1,0,1,0,0,1,0,1,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,5,5,3,3,5,1,3,2,2,2,5,1,0,0,1,0,1,0,0,0,0,1,0
+46.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,1,1,1,1,1,1,2,1,1,3,4,1,0,0,0,0,1,0,0,0,0,0,0
+21.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube",3,4,5,3,4,4,3,3,4,4,4,5,1,0,0,1,0,1,0,0,0,0,0,0
+24.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,2,3,1,4,3,4,4,3,4,1,1,1,1,0,1,0,1,0,0,0,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,1,1,1,2,2,5,1,2,1,3,1,1,0,0,1,0,1,0,0,0,0,0,0
+25.0,Male,Single,University Student,University,Yes,YouTube,1,1,5,1,2,3,4,5,3,5,2,5,1,0,0,0,0,0,0,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, YouTube, Discord, Pinterest",4,2,1,1,2,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,1,0,1,0
+23.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, TikTok",7,5,4,3,4,4,4,2,1,4,4,3,1,1,0,1,1,1,1,1,0,0,0,0
+22.0,Female,In a relationship,Salaried Worker,Company,Yes,"Instagram, YouTube, Discord, Reddit, TikTok",5,4,4,4,4,3,4,4,4,4,5,1,1,1,0,1,1,0,0,1,0,0,0,0
+36.0,Male,Married,Salaried Worker,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,2,1,1,3,1,3,3,1,2,1,1,1,0,0,1,0,1,0,0,1,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6,5,5,3,5,2,3,1,2,5,3,5,1,0,1,1,1,1,0,0,1,0,1,0
+69.0,Trans,Divorced,Salaried Worker,Company,Yes,TikTok,1,5,5,5,5,5,5,5,5,5,5,5,0,0,0,0,1,0,0,0,0,0,0,0
+25.0,Female,Single,Salaried Worker,University,Yes,"Facebook, Instagram, YouTube",3,5,4,2,5,1,5,1,5,4,5,5,1,0,0,1,0,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",6,5,2,1,4,3,5,1,4,4,4,2,1,0,1,1,1,1,1,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",6,5,4,2,5,5,5,4,4,2,3,4,1,1,1,1,1,1,0,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Instagram",2,3,2,1,4,3,3,3,2,3,2,5,0,0,0,1,0,1,0,0,0,0,0,0
+19.0,Female,Single,School Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,3,3,2,5,5,2,3,3,3,5,5,1,1,0,1,0,1,0,0,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",6,4,5,2,2,2,1,4,2,3,2,3,1,1,1,1,0,1,0,1,0,0,0,0
+27.0,Female,In a relationship,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,5,3,4,4,4,2,3,4,4,2,1,0,1,1,0,1,0,0,0,0,1,0
+25.0,Female,Single,University Student,University,Yes,"Facebook, YouTube, Discord",3,2,3,1,4,3,4,2,2,4,2,1,1,1,0,0,0,1,0,0,0,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,2,1,4,1,1,5,1,2,2,3,1,0,1,1,0,1,0,0,0,0,1,0
+34.0,Female,Married,Salaried Worker,School,Yes,Facebook,1,1,5,1,1,5,2,3,5,1,2,1,0,0,0,0,0,1,0,0,0,0,0,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",6,3,5,3,5,3,3,4,3,4,5,4,1,1,1,1,0,1,0,0,1,0,0,0
+34.0,Female,Married,Salaried Worker,School,Yes,Facebook,1,1,2,1,1,1,2,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+26.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest, TikTok",6,5,5,3,5,5,3,3,3,5,4,4,1,1,0,1,1,1,0,0,1,0,1,0
+25.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",8,5,5,2,1,5,2,3,4,5,1,5,1,1,1,1,1,1,1,0,1,0,1,0
+22.0,Female,Married,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,3,4,2,3,2,1,3,2,2,3,3,1,0,0,1,0,1,0,0,1,0,1,0
+20.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",7,3,2,1,5,2,1,4,2,2,4,2,1,1,1,1,0,1,1,1,0,0,0,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,5,3,5,5,5,1,3,3,4,5,1,0,1,1,0,1,0,0,0,0,0,0
+91.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,4,5,4,5,5,5,1,5,5,5,5,1,1,1,1,0,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,1,1,2,1,1,1,2,1,1,2,3,1,1,1,1,0,1,0,0,0,0,1,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, TikTok",4,3,3,2,3,4,3,3,4,4,3,2,1,0,0,1,1,1,0,0,0,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, Discord",3,2,3,4,3,4,2,4,2,3,1,4,0,1,0,1,0,1,0,0,0,0,1,0
+36.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, YouTube, Snapchat",3,2,1,1,2,1,1,3,2,2,3,3,1,0,1,0,0,1,0,0,0,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",6,3,3,2,5,4,3,3,3,5,5,4,1,1,1,1,1,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,2,2,2,2,3,4,3,3,3,2,2,1,0,0,1,0,1,0,0,0,0,0,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest, TikTok",8,4,4,3,2,4,4,3,4,3,4,3,1,1,0,1,1,1,1,1,1,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,2,5,4,4,4,3,2,2,3,2,1,0,1,1,0,1,0,0,0,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,3,3,3,4,3,4,3,3,3,3,2,1,1,0,1,0,1,0,0,0,0,1,0
+26.0,Female,In a relationship,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,3,4,1,3,2,2,4,1,2,2,4,1,0,0,1,0,1,1,0,0,0,0,0
+21.0,Male,Single,University Student,University,Yes,YouTube,1,5,3,2,5,4,2,3,2,4,2,4,1,0,0,0,0,0,0,0,0,0,1,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6,5,5,3,5,5,2,3,1,3,4,5,1,0,1,1,1,1,0,0,1,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Twitter, YouTube, Discord, Pinterest",5,2,2,1,3,1,1,3,1,3,3,2,1,1,0,0,0,1,1,0,1,0,0,0
+19.0,Female,Single,School Student,School,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,5,2,1,2,3,1,3,1,2,1,5,1,1,1,1,1,1,1,1,1,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",7,5,5,5,5,5,5,1,4,5,5,5,1,1,1,1,1,1,0,0,1,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,4,4,3,4,3,2,3,4,3,3,4,1,1,1,1,1,1,1,1,1,0,1,0
+23.0,Male,Single,University Student,University,Yes,"YouTube, Discord, Reddit",3,5,2,1,5,5,1,3,1,5,1,5,1,1,0,0,0,0,0,1,0,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",6,5,4,4,5,4,4,2,3,3,4,3,1,1,0,1,0,1,1,1,0,0,1,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",7,5,4,2,5,4,4,3,3,5,5,5,1,1,1,1,1,1,0,0,1,0,1,0
+22.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,5,3,5,5,5,5,5,5,5,5,1,1,1,1,0,1,0,0,0,0,1,0
+26.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Discord",4,5,5,5,5,5,5,5,1,5,5,5,1,1,0,1,0,1,0,0,0,0,0,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,3,4,2,5,3,1,3,4,5,2,2,1,1,0,1,0,1,0,0,0,0,1,0
+17.0,Male,Single,School Student,School,Yes,Discord,1,3,4,3,3,3,5,3,4,5,3,4,0,1,0,0,0,0,0,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest, TikTok",6,4,3,3,5,4,5,4,4,3,4,5,1,1,0,1,1,1,0,0,1,0,0,0
+21.0,Male,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, Pinterest",6,4,4,2,5,4,5,4,4,4,3,3,1,1,0,1,0,1,0,1,1,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,1,1,1,1,1,2,2,1,2,1,2,1,0,1,1,0,1,0,0,0,0,0,0
+20.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",7,2,5,3,5,3,4,2,1,5,4,5,1,1,1,1,1,1,1,0,0,0,0,0
+24.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube",4,4,4,3,4,4,3,3,3,4,4,4,1,0,0,1,0,1,1,0,0,0,1,0
+22.0,Female,Single,University Student,Company,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,4,2,4,5,3,2,2,3,4,4,1,0,1,1,0,1,0,0,0,0,1,0
+24.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",5,3,3,2,2,3,2,1,3,2,3,2,1,1,0,1,0,1,1,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",5,5,4,4,5,4,5,2,4,5,4,4,1,0,1,1,0,1,0,0,1,0,0,0
+26.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",7,2,3,2,4,2,2,3,4,4,2,2,1,1,1,1,0,1,1,0,1,0,1,0
+24.0,Female,In a relationship,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",5,2,1,1,4,2,1,1,3,3,2,4,1,1,0,1,0,1,0,0,1,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, YouTube",2,2,4,1,2,3,3,3,3,3,4,4,1,0,0,0,0,1,0,0,0,0,1,0
+25.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,2,2,1,4,3,3,3,2,4,2,3,1,1,1,1,0,1,0,0,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",8,4,5,3,4,5,2,3,3,4,5,4,1,1,1,1,1,1,0,1,1,0,1,0
+20.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",5,4,4,4,4,4,5,5,4,5,5,5,1,0,1,1,1,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,3,3,1,1,1,1,3,5,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0
+25.0,Female,In a relationship,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",6,2,1,3,4,4,3,3,1,2,1,1,1,0,1,1,0,1,1,0,1,0,1,0
+17.0,Male,Single,School Student,School,Yes,"Facebook, Discord",2,2,1,4,5,2,4,3,1,4,2,2,0,1,0,0,0,1,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube",4,3,2,3,5,4,4,3,3,4,3,5,1,0,0,1,0,1,1,0,0,0,1,0
+26.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",5,4,4,2,4,4,2,2,1,3,3,2,1,0,0,1,0,1,1,1,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,Facebook,1,3,3,2,3,3,4,3,3,5,3,3,0,0,0,0,0,1,0,0,0,0,1,0
+23.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",5,3,4,5,5,3,3,3,3,5,1,4,1,0,1,1,0,1,0,0,1,0,1,0
+25.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,2,2,5,4,1,1,2,5,5,5,1,0,1,1,0,1,0,0,0,0,1,0
+21.0,Male,Single,School Student,University,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit",5,5,5,3,2,5,2,3,4,4,5,2,1,1,1,1,0,0,0,1,0,0,1,0
+30.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, TikTok",2,3,5,4,3,5,4,3,1,4,4,5,0,0,0,0,1,1,0,0,0,0,1,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,3,4,1,4,3,4,2,2,3,3,2,1,0,0,1,0,1,0,0,0,0,1,0
+22.0,Male,In a relationship,Salaried Worker,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",8,5,5,4,5,4,3,3,3,3,4,2,1,1,1,1,1,1,1,1,0,0,1,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube",3,4,5,5,4,3,5,2,2,5,4,3,1,0,0,1,0,1,0,0,0,0,1,0
+20.0,Female,In a relationship,University Student,University,Yes,"Facebook, YouTube",2,4,3,2,2,2,1,3,5,1,4,1,1,0,0,0,0,1,0,0,0,0,1,0
+18.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",6,2,2,2,4,2,1,3,3,2,3,4,1,1,1,1,0,1,0,0,1,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Twitter, Instagram, YouTube",3,2,3,2,4,2,2,3,2,2,3,1,1,0,0,1,0,0,1,0,0,0,1,0
+15.0,Female,Single,School Student,School,Yes,"Instagram, YouTube, Discord, Pinterest",4,3,3,1,5,3,3,3,1,5,4,5,1,1,0,1,0,0,0,0,1,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",8,3,3,2,5,5,1,3,1,3,4,5,1,1,1,1,0,1,1,1,1,0,0,0
+17.0,Female,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6,5,5,4,3,5,2,2,3,2,4,2,1,0,1,1,1,1,0,0,1,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Instagram",2,4,3,1,5,4,3,3,1,5,5,5,0,0,0,1,0,1,0,0,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",6,1,1,4,4,4,3,4,2,4,5,4,1,0,1,1,1,1,1,0,0,0,0,0
+23.0,Female,Married,University Student,University,Yes,Facebook,1,4,3,3,4,5,4,4,3,3,3,4,0,0,0,0,0,1,0,0,0,0,0,0
+24.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",8,1,1,1,4,1,1,3,1,3,1,3,1,1,1,1,0,1,1,1,1,0,1,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,5,4,3,5,3,3,2,5,5,4,1,0,1,1,0,1,0,0,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6,5,5,5,5,5,5,1,4,5,5,5,1,0,1,1,1,1,0,0,1,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, YouTube, Snapchat, Discord",4,5,5,5,5,5,5,5,5,5,5,5,1,1,1,0,0,1,0,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",6,4,4,5,5,4,5,5,3,5,4,5,1,0,1,1,1,1,1,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",6,2,3,2,4,4,4,3,3,4,2,4,1,1,1,1,0,1,0,0,1,0,0,0
+18.0,Male,Single,School Student,School,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest",7,2,4,1,4,3,1,3,3,3,3,5,1,1,0,1,0,1,1,1,1,0,0,0
+19.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",6,2,2,1,4,2,2,3,4,2,2,5,1,1,1,1,0,1,1,0,0,0,0,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",7,4,4,2,5,5,1,1,1,5,1,5,1,1,1,1,0,1,1,1,0,0,0,0
+21.0,Non binary ,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",7,5,2,3,5,4,4,3,5,5,5,1,1,0,1,1,1,1,0,1,1,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",6,5,5,4,5,4,5,5,3,5,3,5,1,1,1,1,1,1,0,0,0,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",5,4,5,4,5,5,2,2,5,5,5,4,1,1,0,1,0,1,0,0,1,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, Snapchat, Pinterest, TikTok",5,3,4,1,2,2,2,2,2,4,3,2,0,0,1,1,1,1,0,0,1,0,1,0
+23.0,Male,Married,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,5,4,3,4,5,3,2,2,4,4,4,1,1,1,1,1,1,1,1,1,0,1,0
+19.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,2,2,2,3,1,2,5,1,1,3,4,1,1,1,1,1,1,1,1,1,0,1,0
+26.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",7,4,3,2,3,3,4,3,1,4,2,2,1,1,1,1,0,1,1,1,0,0,1,0
+27.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",6,2,5,2,1,1,2,4,1,3,2,3,1,0,0,1,0,1,1,1,1,0,1,0
+25.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest, TikTok",5,4,5,4,5,1,2,2,3,5,2,4,1,0,0,1,1,1,0,0,1,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,3,3,3,3,3,3,3,3,3,3,3,1,1,0,1,0,1,0,0,0,0,1,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",5,3,2,4,5,4,1,3,2,4,4,2,1,0,1,1,0,1,1,0,0,0,0,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",8,3,4,1,3,1,1,1,1,1,2,2,1,1,1,1,0,1,1,1,1,0,1,0
+18.0,Female,Single,School Student,Company,Yes,"Facebook, Instagram, YouTube",3,5,5,2,4,5,5,2,4,4,5,5,1,0,0,1,0,1,0,0,0,0,1,0
+22.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",6,3,3,2,4,3,2,4,1,3,1,3,1,1,1,1,0,1,0,1,0,0,1,0
+20.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, Snapchat, Reddit",5,3,3,2,5,3,1,3,4,5,3,2,0,0,1,1,0,1,1,1,0,0,0,0
+24.0,Male,Single,Salaried Worker,Company,Yes,"YouTube, Discord",2,5,3,5,4,5,1,3,1,3,5,1,1,1,0,0,0,0,0,0,0,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,3,4,3,5,5,4,4,4,3,4,3,1,0,0,1,0,1,0,0,0,0,1,0
+29.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Instagram",2,3,3,1,5,3,2,2,1,5,5,5,0,0,0,1,0,1,0,0,0,0,1,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",6,3,4,3,5,2,4,2,2,2,4,5,1,1,1,1,1,1,0,0,0,0,0,0
+19.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",8,3,5,4,5,4,1,5,1,5,5,5,1,1,1,1,1,1,0,1,1,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,4,4,3,4,4,2,3,1,5,4,2,1,1,1,1,0,1,0,0,0,0,1,0
+43.0,Male,Married,Salaried Worker,Government,Yes,"Facebook, YouTube",2,1,1,1,1,1,1,3,3,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+22.0,Female,Married,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,4,5,3,4,4,4,1,1,4,2,1,1,1,1,1,1,1,1,1,1,0,1,0
+24.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",7,5,5,3,5,5,1,3,1,3,2,1,1,1,1,1,0,1,1,1,0,0,1,0
+18.0,Female,Single,School Student,School,Yes,"Facebook, YouTube",2,3,5,3,5,4,1,3,1,5,4,4,1,0,0,0,0,1,0,0,0,0,0,0
+19.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,3,3,1,4,4,2,3,1,4,3,5,1,1,1,1,0,1,0,0,0,0,1,0
+37.0,Female,In a relationship,Salaried Worker,Company,Yes,"Facebook, YouTube",2,3,2,1,3,2,2,3,1,3,3,4,1,0,0,0,0,1,0,0,0,0,0,0
+24.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",5,4,4,2,4,5,4,2,3,3,4,5,1,1,0,1,0,1,0,1,0,0,1,0
+29.0,Female,Single,Salaried Worker,University,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",6,4,2,1,5,4,4,2,1,5,2,4,1,0,0,1,0,1,1,1,1,0,0,0
+19.0,Male,Single,School Student,Company,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",7,2,3,2,3,2,2,1,3,2,2,2,1,1,1,1,1,1,0,1,0,0,1,0
+35.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Discord",4,2,3,2,4,4,2,2,4,3,2,5,1,1,0,1,0,1,0,0,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Twitter, Discord, Reddit",3,5,5,4,5,4,3,3,1,4,4,2,0,1,0,0,0,0,1,1,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",7,3,2,2,2,2,2,4,2,3,2,3,1,1,1,1,0,1,1,0,1,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Twitter, Instagram, TikTok",3,4,5,5,4,4,2,3,2,3,4,1,0,0,0,1,1,0,1,0,0,0,0,0
+25.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,4,1,5,3,5,2,2,4,3,5,1,1,1,1,0,1,0,0,0,0,1,0
+19.0,Male,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, TikTok",4,3,3,4,3,3,4,3,3,3,3,2,1,0,0,1,1,1,0,0,0,0,1,0
+29.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Pinterest",4,3,4,1,3,3,2,3,1,2,2,4,1,0,0,1,0,1,0,0,1,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",6,3,5,3,3,3,5,1,4,4,3,5,1,0,1,1,0,1,1,0,1,0,1,0
+21.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,2,2,2,1,1,1,3,1,2,2,2,1,1,1,1,0,1,0,0,0,0,1,0
+22.0,Female,Married,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,1,2,1,1,3,1,1,2,1,2,2,1,1,1,1,0,1,0,0,0,0,1,0
+23.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,4,4,2,5,5,5,1,4,5,2,5,1,1,1,1,1,1,1,1,1,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube",3,5,5,4,3,5,4,3,2,4,4,4,1,0,0,1,0,1,0,0,0,0,1,0
+20.0,Male,Divorced,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,5,5,5,5,5,5,5,5,5,5,1,1,1,1,0,1,0,0,0,0,0,0
+27.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, Snapchat, Discord, Pinterest, TikTok",6,3,3,3,4,4,4,4,3,5,3,4,0,1,1,1,1,1,0,0,1,0,1,0
+24.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",8,2,2,2,4,2,2,3,3,2,1,5,1,1,1,1,0,1,1,1,1,0,0,0
+21.0,Female,Married,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,5,2,5,5,5,1,5,4,5,5,1,0,1,1,0,1,0,0,0,0,0,0
+23.0,Female,Single,University Student,University,Yes,"YouTube, Pinterest",2,1,2,1,2,1,1,2,2,3,4,3,1,0,0,0,0,0,0,0,1,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",6,5,4,2,4,4,2,3,2,3,3,5,1,0,0,1,0,1,1,1,1,0,1,0
+23.0,Female,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",5,3,4,3,4,2,4,2,3,2,2,1,1,0,1,1,0,1,1,0,0,0,1,0
+24.0,Female,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",8,3,2,2,5,3,5,2,3,5,5,4,1,1,1,1,1,1,1,0,1,0,1,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,3,2,2,4,3,1,3,2,5,2,4,1,1,1,1,1,1,1,1,1,0,1,0
+30.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube",3,5,5,3,5,5,4,2,5,4,5,4,1,0,0,1,0,1,0,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",7,2,4,2,5,4,5,5,5,5,2,2,1,1,1,1,0,1,1,1,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,3,3,2,2,3,3,1,1,3,2,1,0,1,1,0,1,0,0,0,0,0,0
+29.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6,5,5,3,4,5,5,3,3,5,5,5,1,0,1,1,1,1,0,0,1,0,0,0
+20.0,Male,Single,University Student,University,Yes,"Instagram, YouTube, Discord, Reddit, Pinterest",5,3,3,2,5,5,5,5,5,5,5,1,1,1,0,1,0,0,0,1,1,0,1,0
+26.7,Female,Single,University Student,University,Yes,"Facebook, YouTube",2,3,2,2,5,3,5,2,3,4,5,5,1,0,0,0,0,1,0,0,0,0,0,0
+24.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",9,3,4,1,3,2,3,3,4,5,3,3,1,1,1,1,1,1,1,1,1,0,0,0
+26.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,5,3,4,4,5,1,2,3,4,3,1,0,1,1,0,1,0,0,0,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Discord",3,3,4,2,3,4,3,4,1,2,2,4,1,1,0,0,0,1,0,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",7,4,5,2,5,3,5,3,2,3,3,4,1,1,1,1,1,1,0,0,1,0,1,0
+19.0,Male,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",7,4,4,2,4,4,5,2,4,2,4,4,1,1,1,1,0,1,0,1,1,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Twitter, Instagram, YouTube, TikTok",4,4,4,3,4,4,5,1,2,4,4,2,1,0,0,1,1,0,1,0,0,0,1,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",8,5,5,5,5,5,2,3,2,4,4,5,1,1,1,1,1,1,0,1,1,0,1,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,4,4,4,2,3,2,3,4,3,3,4,1,1,1,1,0,1,0,0,0,0,0,0
+22.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest",6,4,3,3,5,5,4,3,1,5,3,3,1,1,0,1,0,1,1,0,1,0,0,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",7,5,4,4,5,5,2,3,1,5,5,5,1,1,1,1,0,1,1,1,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,5,5,5,5,5,2,4,5,4,1,1,1,1,1,0,1,0,0,0,0,0,0
+20.0,Female,In a relationship,School Student,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",8,3,4,2,3,2,1,3,3,2,2,2,1,1,1,1,1,1,1,0,1,0,0,0
+27.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Pinterest",4,2,2,1,3,1,2,3,4,2,2,1,1,0,0,1,0,1,0,0,1,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,4,4,4,4,2,4,3,5,4,3,1,0,1,1,0,1,0,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,Facebook,1,5,4,3,4,5,4,3,4,5,5,5,0,0,0,0,0,1,0,0,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",6,2,1,4,2,2,3,3,2,1,4,4,1,0,1,1,0,1,1,0,1,0,1,0
+24.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,4,1,4,5,3,3,4,5,5,5,1,0,1,1,0,1,0,0,0,0,1,0
+19.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube",4,3,2,3,4,3,2,2,2,4,4,3,1,0,0,1,0,1,1,0,0,0,1,0
+52.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,3,2,3,3,2,3,2,2,3,2,4,1,0,0,0,0,1,0,0,0,0,0,0
+26.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Reddit, Pinterest, TikTok",6,4,4,3,4,4,3,3,2,3,4,5,1,0,0,1,1,1,0,1,1,0,0,0
+44.0,Male,Married,Salaried Worker,Company,Yes,Facebook,1,2,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+44.0,Male,Married,Salaried Worker,Company,Yes,Facebook,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+19.0,Female,Single,University Student,University,Yes,"Facebook, YouTube, Discord, Pinterest",4,4,5,2,5,3,5,5,1,5,4,5,1,1,0,0,0,1,0,0,1,0,1,0
+35.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Snapchat, Reddit",3,5,5,5,5,5,5,1,1,5,5,5,0,0,1,0,0,1,0,1,0,0,1,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, Snapchat",3,5,5,2,3,5,4,2,4,4,3,3,0,0,1,1,0,1,0,0,0,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, TikTok",3,5,5,5,5,5,2,2,1,4,5,1,0,0,0,1,1,1,0,0,0,0,1,0
+24.0,Female,In a relationship,University Student,Company,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",5,2,2,4,5,1,3,2,4,4,2,5,1,0,0,1,0,1,1,1,0,0,0,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Reddit, Pinterest",5,5,4,3,5,5,5,1,1,3,3,1,1,0,0,1,0,1,0,1,1,0,1,0
+24.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",5,4,4,4,3,3,2,3,1,3,3,3,1,1,0,1,0,1,0,1,0,0,0,0
+21.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,3,3,5,5,5,3,1,5,4,5,1,0,1,1,0,1,0,0,0,0,1,0
+17.0,Male,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Discord",4,5,4,3,5,5,3,2,1,5,4,5,1,1,0,1,0,1,0,0,0,0,0,0
+26.0,Female,In a relationship,University Student,University,Yes,Facebook,1,4,4,2,3,4,3,3,2,4,3,4,0,0,0,0,0,1,0,0,0,0,1,0
+18.0,Male,Single,School Student,School,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",7,5,5,4,5,4,4,3,3,5,3,5,1,1,1,1,1,1,1,0,0,0,1,0
+18.0,Female,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Discord",4,3,1,1,3,2,1,3,1,2,2,2,1,1,0,1,0,1,0,0,0,0,1,0
+18.0,Female,In a relationship,School Student,School,Yes,"Facebook, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",7,3,3,4,4,4,1,3,1,3,5,5,1,0,1,1,1,1,0,1,1,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,4,4,2,5,4,2,3,2,4,3,3,1,1,1,1,0,1,0,0,0,0,1,0
+20.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,5,3,2,5,1,2,3,3,2,1,1,1,1,1,0,1,0,0,0,0,0,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,4,4,3,5,4,4,3,2,3,3,5,1,1,1,1,0,1,0,0,0,0,0,0
+25.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest",7,2,2,3,3,3,3,4,3,2,2,4,1,1,0,1,0,1,1,1,1,0,0,0
+26.0,Male,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Reddit",4,3,3,3,5,4,4,1,4,5,5,4,1,0,0,1,0,1,0,1,0,0,1,0
+20.0,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",7,4,5,3,5,4,5,2,4,4,4,5,1,1,1,1,1,1,1,0,0,0,0,0
+19.0,Male,In a relationship,School Student,School,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",7,3,3,1,4,2,2,3,3,1,4,3,1,1,1,1,0,1,0,1,1,0,0,0
+17.0,Female,Single,School Student,School,Yes,"Facebook, Instagram, YouTube, Pinterest",4,2,1,3,5,4,5,5,1,4,4,1,1,0,0,1,0,1,0,0,1,0,1,0
+24.0,Female,Married,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,3,5,3,5,4,2,3,3,3,3,1,0,1,1,0,1,0,0,0,0,1,0
+29.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Pinterest",4,4,5,5,5,4,3,3,4,4,4,3,1,0,0,1,0,1,0,0,1,0,0,0
+30.0,Female,Married,Retired,Company,Yes,"Facebook, Instagram, YouTube",3,2,5,1,3,3,2,4,3,3,3,2,1,0,0,1,0,1,0,0,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",7,4,5,4,5,5,5,1,3,5,4,4,1,1,1,1,1,1,1,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",7,4,3,2,4,4,3,3,3,5,5,5,1,1,1,1,0,1,0,1,1,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",7,3,5,2,4,3,4,4,4,5,3,5,1,1,1,1,0,1,0,1,1,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,5,5,3,5,5,5,5,5,5,5,5,1,1,0,1,0,1,0,0,0,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",7,5,3,2,5,4,5,1,3,5,5,5,1,1,1,1,0,1,1,1,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,YouTube,1,3,1,2,4,2,2,1,1,4,3,5,1,0,0,0,0,0,0,0,0,0,1,0
+22.0,Female,Single,University Student,University,Yes,"Facebook, Instagram",2,2,2,2,5,3,5,2,5,3,3,5,0,0,0,1,0,1,0,0,0,0,1,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, Snapchat",3,3,5,2,5,2,1,2,2,3,3,4,0,0,1,1,0,1,0,0,0,0,0,0
+27.0,Female,In a relationship,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Reddit, TikTok",5,4,3,3,3,3,4,2,4,2,1,2,1,0,0,1,1,1,0,1,0,0,1,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,2,4,2,2,3,2,3,1,2,2,5,1,0,0,1,0,1,0,0,0,0,0,0
+23.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",7,4,3,2,4,3,4,4,4,4,3,4,1,1,1,1,1,1,0,1,0,0,1,0
+22.0,Male,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,4,4,5,2,4,3,3,4,2,3,4,1,1,0,1,0,1,0,0,0,0,1,0
+21.0,Female,In a relationship,University Student,University,Yes,YouTube,1,3,4,4,3,3,2,5,3,1,3,2,1,0,0,0,0,0,0,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, YouTube, Discord, Reddit",4,2,2,1,3,2,3,3,1,3,2,2,1,1,0,0,0,1,0,1,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",5,4,5,3,4,4,3,3,4,4,4,3,1,0,0,1,0,1,1,0,1,0,0,0
+20.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,3,3,2,4,2,2,4,3,3,4,3,1,0,0,1,0,1,0,0,0,0,1,0
+23.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, Pinterest",6,2,1,1,5,3,3,4,1,3,2,4,1,1,0,1,0,1,0,1,1,0,0,0
+22.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6,5,5,3,5,5,5,3,3,5,4,5,1,0,1,1,1,1,0,0,1,0,1,0
+20.0,Female,In a relationship,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,3,4,5,5,5,1,4,5,5,3,1,0,1,1,0,1,0,0,0,0,0,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,4,4,4,4,5,4,1,4,4,4,5,1,1,1,1,0,1,0,0,0,0,1,0
+25.0,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",5,2,5,2,3,3,1,3,1,2,4,5,1,0,0,1,0,1,1,0,1,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, Discord",3,4,2,1,4,4,2,1,1,2,2,2,0,1,0,1,0,1,0,0,0,0,1,0
+28.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",5,4,3,1,5,4,1,3,1,4,1,5,1,1,0,1,0,1,0,1,0,0,1,0
+22.0,Female,Single,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",8,5,1,1,3,5,1,1,1,3,4,3,1,1,1,1,1,1,0,1,1,0,1,0
+60.0,Male,Single,Retired,Company,Yes,"Facebook, YouTube",2,1,2,1,1,1,3,3,3,1,1,1,1,0,0,0,0,1,0,0,0,0,1,0
+49.0,Male,Married,Salaried Worker,School,Yes,"Facebook, YouTube, Pinterest",3,3,4,3,4,3,3,3,3,3,2,2,1,0,0,0,0,1,0,0,1,0,0,0
+34.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube",3,1,1,1,1,1,3,4,1,1,2,1,1,0,0,1,0,1,0,0,0,0,0,0
+56.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, YouTube, Pinterest",4,1,1,1,1,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,1,0,1,0
+51.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, Twitter, Instagram, YouTube",4,4,2,3,2,3,4,3,3,2,2,4,1,0,0,1,0,1,1,0,0,0,0,0
+23.0,Female,Single,School Student,University,Yes,Facebook,1,3,3,3,3,2,2,3,3,4,2,2,0,0,0,0,0,1,0,0,0,0,1,0
+21.0,Female,Single,University Student,University,Yes,"Facebook, YouTube, Discord",3,3,5,3,3,2,3,3,1,2,2,3,1,1,0,0,0,1,0,0,0,0,1,0
+50.0,Male,Married,University Student,Company,Yes,"Facebook, Instagram",2,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0
+22.0,Female,Single,University Student,University,Yes,"Twitter, Instagram, YouTube",3,4,2,1,5,5,1,4,1,3,5,2,1,0,0,1,0,0,1,0,0,0,1,0
+28.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube, Pinterest",4,5,4,1,4,5,2,2,2,5,5,2,1,0,0,1,0,1,0,0,1,0,1,0
+13.0,Male,Single,School Student,School,Yes,"Instagram, YouTube, Discord",3,3,4,1,3,1,1,3,1,3,3,4,1,1,0,1,0,0,0,0,0,0,1,0
+14.0,Male,Single,School Student,School,Yes,"Instagram, Discord",2,4,4,2,3,2,1,3,1,2,3,1,0,1,0,1,0,0,0,0,0,0,1,0
+13.0,Male,Single,School Student,School,Yes,"Twitter, Instagram, YouTube, Discord, Pinterest",5,4,4,3,2,4,2,3,2,2,3,2,1,1,0,1,0,0,1,0,1,0,0,0
+23.0,Male,In a relationship,School Student,University,Yes,"Facebook, Instagram, YouTube, Discord",4,3,4,2,4,4,1,3,1,3,2,3,1,1,0,1,0,1,0,0,0,0,1,0
+18.0,Male,Single,University Student,University,Yes,"Discord, Reddit",2,3,3,1,2,1,1,2,1,1,2,4,0,1,0,0,0,0,0,1,0,0,0,0
+18.0,Male,Single,School Student,School,Yes,Pinterest,1,3,3,1,5,3,5,1,2,5,2,1,0,0,0,0,0,0,0,0,1,0,0,0
+15.0,Male,Single,School Student,School,Yes,"Instagram, YouTube, Discord, Reddit",4,3,1,1,3,3,3,3,3,1,1,1,1,1,0,1,0,0,0,1,0,0,1,0
+20.0,Female,Single,University Student,Company,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",7,3,2,1,5,3,5,1,2,5,4,5,1,1,1,1,1,0,0,1,1,0,0,0
+20.0,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube",3,4,4,2,5,3,1,3,2,4,3,4,1,0,0,1,0,1,0,0,0,0,0,0
+35.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram, YouTube",3,3,2,2,3,2,1,2,2,2,4,4,1,0,0,1,0,1,0,0,0,0,0,0
+26.0,Female,Married,University Student,University,Yes,"Facebook, YouTube, TikTok",3,3,4,3,4,4,4,5,3,4,3,4,1,0,0,0,1,1,0,0,0,0,1,0
+30.0,Female,Married,Salaried Worker,University,Yes,"Facebook, Instagram, YouTube",3,3,4,4,4,5,4,2,2,4,2,1,1,0,0,1,0,1,0,0,0,0,1,0
+32.0,Female,Married,Salaried Worker,Company,Yes,"Facebook, Instagram",2,5,5,3,5,5,5,1,4,5,5,4,0,0,0,1,0,1,0,0,0,0,1,0
+24.0,Male,Single,Salaried Worker,University,Yes,"Facebook, Instagram, YouTube",3,4,4,3,3,4,4,2,4,3,4,4,1,0,0,1,0,1,0,0,0,0,1,0
+26.0,Female,Married,Salaried Worker,University,Yes,"Facebook, YouTube",2,3,1,2,4,4,4,2,4,4,4,1,1,0,0,0,0,1,0,0,0,0,0,0
+29.0,Female,Married,Salaried Worker,University,Yes,"Facebook, YouTube",2,3,3,4,2,3,3,3,4,2,2,2,1,0,0,0,0,1,0,0,0,0,1,0
+21.0,Male,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest",6,3,3,2,3,2,2,3,4,4,5,4,1,1,0,1,0,1,1,0,1,0,1,0
+53.0,Male,Married,Salaried Worker,Company,Yes,"Facebook, YouTube",2,3,3,1,1,1,3,3,2,2,2,3,1,0,0,0,0,1,0,0,0,0,0,0
