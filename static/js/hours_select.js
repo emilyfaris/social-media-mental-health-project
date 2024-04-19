@@ -3,17 +3,17 @@
 
 
 // Add in body section:
-  // <label for="genderSelect">Select Gender:</label>
-//   <select id="genderSelect">
-//   <option value="">Select a gender</option>
-//   <option value="Male">Male</option>
-//   <option value="Female">Female</option>
-//   <option value="Non binary">Non binary</option>
-//   <option value="Trans">Transgender</option>
-// </select>
-// <div id="chart"></div>
+  // <div>
+//   <label for="hoursSelect">Select Hours Spent on Social Media:</label>
+//   <select id="hoursSelect">
+//   <option value="">--Select Hours--</option>
+//   <option value="Less than 2 ">Less than 2 hours</option>
+//   <option value="2 to 5">2 to 5 hours</option>
+//   <option value="More than 5 ">More than 5 hours</option>
+//   </select>
+//   <div id="hoursChart"></div>
 
-// <script src="{{url_for('static', filename='js/gender_select.js')}}"></script>
+// <script src="{{url_for('static', filename='js/hours_select.js')}}"></script>
 
 document.addEventListener('DOMContentLoaded', function() {
     const hoursSelect = document.getElementById('hoursSelect');
