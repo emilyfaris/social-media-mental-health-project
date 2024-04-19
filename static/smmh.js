@@ -11,15 +11,9 @@ function populateDropdown() {
             let dropdown = document.getElementById('selDataset');
             // Clear existing options
             dropdown.innerHTML = '';
-
-            // Convert the array to a Set to get unique values
             
-            // let uniqueAgesSet = new Set(data.forEach(record => record.age));
-
-            // // Convert the Set back to an array
-            // let uniqueAges = Array.from(uniqueAgesSet);
-
-            const unique = [...new Set(data.map(item => item.age))].sort();
+            // ***MAKE SURE Math.round works***
+            const unique = [...new Set(data.map(item => Math.round(item.age)))].sort();
             console.log(unique)
 
             // Loop through the data and add each age as an option to the dropdown
@@ -29,16 +23,65 @@ function populateDropdown() {
                 dropdown.add(option);
             });
 
-            // // Loop through the data and add each age as an option to the dropdown
-            // data.forEach(record => {
-            //     let option = document.createElement('option');
-            //     option.text = record.age;
-            //     dropdown.add(option);
-            // });
             // Trigger the change event to update the dashboard with the selected age
             optionChanged(dropdown.value);
         })
         .catch(error => console.error('Error fetching data:', error));
+};
+
+// Function to create pie charts for specified social media platforms based on selected age
+function createPieCharts(age, data) {
+    // Filter data based on selected age
+    const filteredData = data.filter(item => Math.round(item.age) === parseInt(age));
+
+    // Initialize data objects for each platform
+    const platformsData = {
+        'Facebook': 0,
+        'Twitter': 0,
+        'Instagram': 0,
+        'YouTube': 0,
+        'Discord': 0,
+        'Reddit': 0
+    };
+
+    // Count occurrences of each platform
+    filteredData.forEach(item => {
+        const platforms = item.SocialMediaPlatforms.split(', ');
+        platforms.forEach(platform => {
+            if (platformsData.hasOwnProperty(platform)) {
+                platformsData[platform]++;
+            }
+        });
+    });
+
+    // Create pie chart for each platform
+    Object.keys(platformsData).forEach(platform => {
+        const platformData = [{
+            labels: [platform, 'Others'],
+            values: [platformsData[platform], filteredData.length - platformsData[platform]],
+            type: 'pie',
+            name: `${platform} Usage`,
+            hoverinfo: 'label+percent',
+            hole: 0.4
+        }];
+        
+        const layout = {
+            title: `${platform} Usage`,
+            annotations: [
+                {
+                    font: {
+                        size: 20
+                    },
+                    showarrow: false,
+                    text: '',
+                    x: 0.5,
+                    y: 0.5
+                }
+            ]
+        };
+        
+        Plotly.newPlot(`${platform.toLowerCase()}-pie`, platformData, layout);
+    });
 }
 
 // Function to handle change event of the dropdown menu

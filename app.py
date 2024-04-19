@@ -41,39 +41,3 @@ def get_social():
 
 if __name__ == "__main__":
     app.run(host='localhost', debug=True)
-
-
-# import flask
-# import sqlalchemy
-# from sqlalchemy import text
-# from flask import render_template, jsonify
-
-# app = flask.Flask(__name__)
-
-# def get_data():
-#     # Create a connection to the database
-#     connection_string = 'postgresql://postgres:postgres@localhost:5432/proj3_db'
-#     # Create the engine
-#     engine = sqlalchemy.create_engine(connection_string)
-#     # Establish a connection
-#     conn = engine.connect()
-#     # Execute a query to fetch data from the database
-#     query = "SELECT * FROM smmh_data"
-#     result = conn.execute(text(query))
-#     # Fetch the data
-#     data = result.fetchall()
-#     # Close the connection
-#     conn.close()
-#     return data
-
-# @app.route('/')
-# def home():
-#     return flask.render_template("smmh.html")
-
-# @app.route('/social')
-# def get_social():
-#     data = get_data()
-#     return flask.jsonify(data)
-
-# if __name__ == "__main__":
-#     app.run(host='localhost', debug=True)
