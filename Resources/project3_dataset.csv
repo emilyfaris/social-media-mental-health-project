@@ -1,4 +1,4 @@
-﻿Age ,Gender,RelationshipStatus,Occupation ,Organization,SocialMedia,SocialMediaPlatforms,NumberofSocialMediaPlatforms,HoursSpent,Frequency,Distraction,Restlessness,Anxiety,ConcentrationDifficulty,SelfComparision,PostSentiment,ValidationSeeking,Depression,ActivityInterest Variance,Sleeplessness
+Age ,Gender,RelationshipStatus,Occupation ,Organization,SocialMedia,SocialMediaPlatforms,NumberofSocialMediaPlatforms,HoursSpent,Frequency,Distraction,Restlessness,Anxiety,ConcentrationDifficulty,SelfComparision,PostSentiment,ValidationSeeking,Depression,ActivityInterest Variance,Sleeplessness
 21,Male,In a relationship,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",6,2 to 5,5,3,2,2,5,2,3,2,5,4,5
 21,Female,Single,University Student,University,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",6,More than 5 ,4,3,2,5,4,5,1,1,5,4,5
 21,Female,Single,University Student,University,Yes,"Facebook, Instagram, YouTube, Pinterest",4,2 to 5,2,2,1,5,4,3,3,1,4,2,5
