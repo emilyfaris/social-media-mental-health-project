@@ -33,11 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
                             x: categories,
                             y: values,
                             type: 'bar',
-                            marker: {color: 'teal'}
+                            marker: {color: 'mediumturquoise'}
                         };
 
                         const layout = {
-                            title: `Average Scores for ${gender}`,
+                            title: `Average Mental Health Scores for ${gender}`,
                             xaxis: {title: 'Category'},
                             yaxis: {title: 'Average Score', range: [0, 5]},
                             margin: {t: 30}

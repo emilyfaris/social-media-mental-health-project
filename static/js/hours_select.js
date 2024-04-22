@@ -36,11 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
                                 x: categories,
                                 y: values,
                                 type: 'bar',
-                                marker: {color: 'blue'}
+                                marker: {color: 'lightskyblue'}
                             };
 
                             const layout = {
-                                title: `Average Scores for ${selectedHours.trim()} on Social Media`,
+                                title: `Average Mental Health Scores for ${selectedHours.trim()} Hours Spent on Social Media`,
                                 xaxis: {title: 'Category'},
                                 yaxis: {title: 'Average Score', range: [0, 5]},
                                 margin: {t: 30}

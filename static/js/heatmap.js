@@ -39,7 +39,7 @@ fetch('/age&platform_data')
         };
 
         const layout = {
-            title: 'Social Media Usage by Age Bracket',
+            title: 'Average Social Media Usage by Age Bracket',
             xaxis: {title: 'Age Bracket'},
             yaxis: {title: 'Platform'},
             margin: {t: 50, l: 150}
