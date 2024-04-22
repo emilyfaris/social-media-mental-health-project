@@ -69,7 +69,7 @@ function createPieChart(containerId, data) {
     }];
 
     const layout = {
-        title: 'Social Media Platform Frequency Distribution for Selected Age Group'
+        title: 'Social Media Platform Frequency Count for Selected Age'
     };
 
     Plotly.newPlot(containerId, chartData, layout);
