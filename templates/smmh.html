@@ -7,6 +7,8 @@
   <title>Social Media Mental Health Project</title>
   <!-- JS Library List -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="http://localhost:5000/data"></script>
+  <script src="http://localhost:5000/age_select_data"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!-- CSS List -->
   <link rel="stylesheet" href ="{{url_for('static',filename='css/heatmap.css')}}">
@@ -23,8 +25,10 @@
     <div class="row">
       <div class="col-md-12">
         <div class="card card-body bg-light">
+          <!-- Age Select Visualization -->
           <h6>Test Subject Ages:</h6>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <select id="selDataset"></select>
+          <div id="age-pie-chart"></div>
           <!-- Heatmap -->
           <div id="heatmap"></div>
           <script src="static/js/heatmap.js"></script> 
@@ -73,5 +77,6 @@
   <script src="{{url_for('static', filename='js/heatmap.js')}}"></script>
   <script src="{{url_for('static', filename='js/gender_select.js')}}"></script>
   <script src="{{url_for('static', filename='js/hours_select.js')}}"></script>
+  <script src="{{url_for('static', filename='js/smmh.js')}}"></script>
 </body>
 </html>

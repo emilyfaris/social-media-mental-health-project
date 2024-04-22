@@ -6,17 +6,8 @@
   }
 
 
-
-/* <style>
-  .content {
-    display: flex;
-    justify-content: space-between;
+  #age-pie-chart{
+    width: 50%;   
+    height: 400px; 
+    margin: auto;  
   }
-  #heatmap {
-    flex: 1;  /* Takes half of the available space */
-    /* height: 400px;
-  }
-  .other-content {
-    flex: 1;  /* Takes the remaining half */
-  /* }
-</style> */ */ */
