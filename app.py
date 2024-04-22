@@ -112,6 +112,31 @@ def get_hours_data():
     return flask.jsonify(hours_data)
 
 
+@app.route('/age_select_data')
+def get_age_select():
+    query = """
+    SELECT
+        age,
+        SUM(CAST(reddit AS INTEGER)) AS reddit,
+        SUM(CAST(youtube AS INTEGER)) AS youtube,
+        SUM(CAST(snapchat AS INTEGER)) AS snapchat,
+        SUM(CAST(pinterest AS INTEGER)) AS pinterest,
+        SUM(CAST(tiktok AS INTEGER)) AS tiktok,
+        SUM(CAST(instagram AS INTEGER)) AS instagram,
+        SUM(CAST(discord AS INTEGER)) AS discord,
+        SUM(CAST(facebook AS INTEGER)) AS facebook,
+        SUM(CAST(twitter AS INTEGER)) AS twitter
+    FROM smmh_data
+    GROUP BY age
+    ORDER BY age;
+    """
+    data = get_data(query)
+    platform_data = []
+    for record in data:
+        platform_data.append(dict(record._mapping))
+    return jsonify(platform_data)
+
+
 
 if __name__ == "__main__":
     app.run(host='localhost', debug=True)
