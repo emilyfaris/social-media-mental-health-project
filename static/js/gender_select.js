@@ -9,7 +9,6 @@
 //   <option value="Male">Male</option>
 //   <option value="Female">Female</option>
 //   <option value="Non binary">Non binary</option>
-//   <option value="Trans">Transgender</option>
 // </select>
 // <div id="chart"></div>
 
