@@ -7,9 +7,6 @@ The Social Media Mental Health Dashboard is an interactive web application that 
 # Ethics
 In developing this data analytics project, ethical considerations were incredibly important. We recognize the sensitivity of mental health data and the potential implications of our analysis. Our team is committed to upholding strict ethical standards, and retrieved the data from Kaggle, a data science competition platform known for its rigorous data vetting processes. We prioritize the privacy and confidentiality of all participants involved in the dataset, ensuring their anonymity and adhering to established guidelines for data collection, processing, and interpretation. By conducting our analysis ethically, we aim to contribute responsibly to the field of mental health research.
 
-# Demo
-You can access the live demo of the [Social Media Mental Health Dashboard here](file:///Users/mariajosedupont/Desktop/social-media-mental-health-project/Templates/smmh.html)
-
 # Data Source
 The data used in this project is obtained from the following URL:
 
