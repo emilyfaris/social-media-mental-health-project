@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Social Media Mental Health Project</title>
+  <!-- JS Library List -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="Resources/smmh.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- CSS List -->
+  <link rel="stylesheet" href ="{{url_for('static',filename='css/heatmap.css')}}">
 </head>
 <body>
   <div class="container">
@@ -17,58 +20,109 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
-        <!-- Add the pie chart container here -->
-        <div id="pie-chart"></div>
-      </div>
-      <div class="col-md-6">
-        <!-- Other content or charts can go here -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-12">
         <div class="card card-body bg-light">
           <h6>Test Subject Ages:</h6>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <!-- Heatmap -->
+          <div id="heatmap"></div>
+          <script src="static/js/heatmap.js"></script> 
+          <!-- Data Interpretation Key -->
+          <h3>Understanding the Data</h3>
+          <p>Each question is rated on a scale from 1 to 5, where 1 indicates 'Not at all' and 5 indicates 'Very much'.</p>
+          <div>
+            <h4>Data Key:</h4>
+            <ul>
+              <li><strong>Activity Interest Variability:</strong> How frequently does your interest in daily activities fluctuate?</li>
+              <li><strong>Anxiety:</strong> How much are you bothered by worries?</li>
+              <li><strong>Concentration:</strong> Do you find it difficult to concentrate on things?</li>
+              <li><strong>Depression:</strong> How often do you feel depressed or down?</li>
+              <li><strong>Distraction:</strong> How often do you get distracted by social media when you are busy doing something?</li>
+              <li><strong>Restlessness:</strong> Do you feel restless if you haven't used social media in a while?</li>
+              <li><strong>Self Compassion:</strong> How often do you compare yourself to other successful people through the use of social media?</li>
+              <li><strong>Post Sentiment:</strong> Following comparisons on social media, how do you generally feel about these comparisons?</li>
+              <li><strong>Sleeplessness:</strong> How often do you face issues regarding sleep?</li>
+              <li><strong>Validation Seeking:</strong> How often do you look to seek validation from features of social media?</li>
+            </ul>
+          </div>
+          <!-- Gender select graph -->
+          <label for="genderSelect">Select Gender:</label>
+          <select id="genderSelect">
+            <option value="">--Select a gender--</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Non binary">Non binary</option>
+            <option value="Trans">Transgender</option>
+          </select>
+          <div id="chart"></div>
+          <!-- Hours select graph -->
+          <div>
+            <label for="hoursSelect">Select Hours Spent on Social Media:</label>
+            <select id="hoursSelect">
+              <option value="">--Select Hours--</option>
+              <option value="Less than 2">Less than 2 hours</option>
+              <option value="2 to 5">2 to 5 hours</option>
+              <option value="More than 5">More than 5 hours</option>
+            </select>
+            <div id="hoursChart"></div>
+          </div>
+          <!-- Visualization 1: Bar Chart -->
+          <div id="visualization1">
+            <h3>Mental Health Scores by Occupation and Frequency</h3>
+            <p>This chart shows the mental health scores by occupation and frequency.</p>
+            <img src="{{url_for('static', filename='mental_health_visualization.png')}}" alt="Mental Health Visualization">
+
+          </div>
+          <!-- Visualization 2: Plotly Graph -->
+          <div id="visualization2">
+            <h3>Mental Health Scores by Occupation and Frequency</h3>
+            <h3>David</h3>
+            <p>This chart shows the mental health scores by occupation and frequency.</p>
+            <div id="plotly-graph"></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+      <!-- Visualization 3: Plotly Graph
+      <div id="visualization3">
+  <h3>Mental Health Scores by Occupation and Frequency</h3>
+  <h3>David</h3>
+  <p>This chart shows the mental health scores by occupation and frequency.</p>
+  <div id="plotly-graph"></div> <!-- Insert the Plotly graph container here -->
+</div> -->
+  <!-- Include your Plotly graph script here -->
+<script>
+  // // Fetch data from Flask endpoint
+  // fetch('/visualization2/data')
+  //   .then(response => response.json())
+  //   .then(data => {
+  //     // Extract x and y data from the response
+  //     const xData = data.map(item => item.Occupation);
+  //     const yData = data.map(item => item.Depression); // Adjust this to match your data structure
+  
+  //     // Create the Plotly graph
+  //     const trace = {
+  //       x: xData,
+  //       y: yData,
+  //       type: 'bar',
+  //       marker: {color: 'blue'}
+  //     };
+  //     const layout = {
+  //       title: 'Mental Health Scores by Occupation and Frequency',
+  //       xaxis: {title: 'Occupation'},
+  //       yaxis: {title: 'Frequency'}
+  //     };
+  //     const config = {responsive: true};
+  //     Plotly.newPlot('plotly-graph', [trace], layout, config);
+  //   })
+  //   .catch(error => console.log('Error fetching data:', error));
+</script>
+  </script>
+  <!-- <script src="{{url_for('static', filename='js/heatmap.js')}}"></script>
+  <script src="{{url_for('static', filename='js/gender_select.js')}}"></script>
+  <script src="{{url_for('static', filename='js/hours_select.js')}}"></script> -->
+  <script src="{{url_for('static', filename='js/graph2.js')}}"></script> 
+  <!-- <script src="{{ url_for('static', filename='js/graph3.js') }}"></script>  -->
 </body>
 </html>
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Social Media Mental Health Project</title>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <link rel="stylesheet" href="style.css"> -->
-  <!-- <script src="http://localhost:5000/social"></script>
-  <script src="{{url_for('static', filename='smmh.js')}}"></script>
-</head>
-<body>
-  <div class="container">
-    <div class="row"> -->
-      <!-- <div class="col-md-12 p-5 text-center bg-light">
-        <h1>Social Media and Mental Health Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="card card-body bg-light">
-          <h6>Test Subject Ages:</h6>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-</html> -->
