@@ -11,9 +11,9 @@ fetch('/visualization2/data')
         marker: {color: 'powderblue'}
       }],
       layout: {
-        title: 'Mental Health Scores by Occupation and Frequency',
+        title: 'Median Mental Health Scores by Occupation',
         xaxis: {title: 'Mental Health'},
-        yaxis: {title: 'Frequency'}
+        yaxis: {title: 'Median Score'}
       }
     };
 

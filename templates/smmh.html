@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,13 +14,42 @@
   <!-- CSS List -->
   <link rel="stylesheet" href ="{{url_for('static',filename='css/heatmap.css')}}">
   <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    /* Set the background color */
+    body {
+        background-color: #C3B1E1;
+        text-align: center; /* Center text horizontally */
+    }
+    .data-key-container {
+        text-align: left; /* Align text to the left */
+        margin: 0 auto; /* Center the container horizontally */
+        max-width: 800px; /* Limit the width to avoid stretching */
+        padding: 0 20px; /* Add padding for better readability */
+    }
+    .data-key-container p {
+        text-align: center; /* Center text horizontally */
+    }
+    .data-key-container ul {
+        list-style-position: inside; /* Place bullet points inside the list item */
+    }
+    .intro-paragraph {
+        text-align: center; /* Center text horizontally */
+        margin: 0 auto; /* Center the container horizontally */
+        max-width: 800px; /* Limit the width to avoid stretching */
+        padding: 0 20px; /* Add padding for better readability */
+    }
+  </style>
 </head>
+
 <body>
   <div class="container">
     <div class="row">
       <div class="col-md-12 p-5 text-center bg-light">
         <h1>Social Media and Mental Health Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset.</p>
+        <div class="intro-paragraph">
+            <p>Hello! Welcome to our dashboard. The Social Media Mental Health Dashboard is an interactive web application that allows users to explore the relationship between social media and mental health. The dataset used in this dashboard comes from Kaggle and provides visualizations in the form of bar charts, pie charts, and heatmaps as we explore platform use by age groups and mental health outcomes by gender, hourly usage, and occupation. This data was collected in 2022 and is comprised of 481 survey participants in Bangladesh.</p>
+            <p>Use the interactive charts below to explore the dataset!</p>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -29,32 +59,36 @@
           <label for="selDataset">Select Age:</label>
           <select id="selDataset"></select>
           <div id="age-pie-chart"></div>
+          <div class="data-key-container">
+          </br>
         </br>
-      </br>
-          <!-- Heatmap -->
-          <div id="heatmap"></div>
-          <script src="static/js/heatmap.js"></script> 
-          <!-- Data Interpretation Key -->
-          <h3>Understanding the Data: Mental Health Outcomes</h1>
-            <p>The following data key can be used to help interpret the mental health outcomes in the following visuliazations. Outcomes were measured on a self-reported survey using the questions below. For each question, participants were asked to rate on a scale from 1 to 5, where 1 indicates 'Not at all' and 5 indicates 'Very much'.</p>
-            <div>
-              <h4>Data Key:</h2>
-              <ul>
-                <li><strong>activity_interest_var:</strong> How frequently does your interest in daily activities fluctuate?</li>
-                <li><strong>anxiety:</strong> How much are you bothered by worries?</li>
-                <li><strong>concentration:</strong> Do you find it difficult to concentrate on things?</li>
-                <li><strong>depression:</strong> How often do you feel depressed or down?</li>
-                <li><strong>distraction:</strong> How often do you get distracted by social media when you are busy doing something?</li>
-                <li><strong>frequency:</strong> How often do you find yourself using Social media without a specific purpose?</li>
-                <li><strong>restlessness:</strong> Do you feel restless if you haven't used social media in a while?</li>
-                <li><strong>self_compassion:</strong> How often do you compare yourself to other successful people through the use of social media?</li>
-                <li><strong>post_sentiment:</strong> Following comparisons on social media, how do you generally feel about these comparisons?</li>
-                <li><strong>sleeplessness:</strong> How often do you face issues regarding sleep?</li>
-                <li><strong>validation_seeking:</strong> How often do you look to seek validation from features of social media?</li>
-              </ul>
+            <!-- Heatmap -->
+            <div id="heatmap"></div>
+            <script src="static/js/heatmap.js"></script> 
+            <!-- Data key for interpretation -->
+              <h3>Understanding the Data: Mental Health Outcomes</h3>
+              <p>The following data key can be used to help interpret the mental health outcomes in the following visualizations. Outcomes were measured on a self-reported survey using the questions below. For each question, participants were asked to rate on a scale from 1 to 5, where 1 indicates 'Not at all' and 5 indicates 'Very much'.</p>
+              <div>
+                <h4>Data Key:</h4>
+                <ul>
+                  <li><strong>activity_interest_var:</strong> How frequently does your interest in daily activities fluctuate?</li>
+                  <li><strong>anxiety:</strong> How much are you bothered by worries?</li>
+                  <li><strong>concentration:</strong> Do you find it difficult to concentrate on things?</li>
+                  <li><strong>depression:</strong> How often do you feel depressed or down?</li>
+                  <li><strong>distraction:</strong> How often do you get distracted by social media when you are busy doing something?</li>
+                  <li><strong>frequency:</strong> How often do you find yourself using Social media without a specific purpose?</li>
+                  <li><strong>restlessness:</strong> Do you feel restless if you haven't used social media in a while?</li>
+                  <li><strong>self_compassion:</strong> How often do you compare yourself to other successful people through the use of social media?</li>
+                  <li><strong>post_sentiment:</strong> Following comparisons on social media, how do you generally feel about these comparisons?</li>
+                  <li><strong>sleeplessness:</strong> How often do you face issues regarding sleep?</li>
+                  <li><strong>validation_seeking:</strong> How often do you look to seek validation from features of social media?</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </br>
-</br>
+  </div>
           <!-- Gender select graph -->
           <label for="genderSelect">Select Gender:</label>
           <select id="genderSelect">
@@ -68,7 +102,7 @@
       </br>
           <!-- Hours select graph -->
           <div>
-          <label for="hoursSelect">Select Hours Spent on Social Media:</label>
+          <label for="hoursSelect">Select Daily Hours Spent on Social Media:</label>
           <select id="hoursSelect">
           <option value="">--Select Hours--</option>
           <option value="Less than 2 ">Less than 2 hours</option>
@@ -81,23 +115,21 @@
     </br>
         <!-- Visualization 1: Bar Chart -->
         <div id="visualization1">
-          <h3>Mental Health Scores by Occupation and Frequency</h3>
-          <p>This chart shows the mental health scores by occupation and frequency.</p>
+          <h3>Median Mental Health Scores by Occupation</h3>
+          <p>This chart shows the median mental health scores for each occupation.</p>
           <img src="{{url_for('static', filename='mental_health_visualization.png')}}" alt="Mental Health Visualization">
         </div>
         <!-- Visualization 2: Plotly Graph -->
         <div id="visualization2">
-          <h3>Mental Health Scores by Occupation and Frequency</h3>
-          <p>This chart shows the mental health scores by occupation and frequency.</p>
+          <h3>Median Mental Health Scores by Occupation</h3>
+          <p>This chart shows the median mental health scores by occupation type.</p>
           <div id="plotly-graph"></div>
         </div>
-      </div>
-    </div>
-  </div>
   <script src="{{url_for('static', filename='js/heatmap.js')}}"></script>
   <script src="{{url_for('static', filename='js/gender_select.js')}}"></script>
   <script src="{{url_for('static', filename='js/hours_select.js')}}"></script>
   <script src="{{url_for('static', filename='js/smmh.js')}}"></script>
   <script src="{{url_for('static', filename='js/graph2.js')}}"></script> 
 </body>
+
 </html>

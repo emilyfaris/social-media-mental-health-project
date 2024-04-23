@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             };
 
                             const layout = {
-                                title: `Average Mental Health Scores for ${selectedHours.trim()} Hours Spent on Social Media`,
+                                title: `Average Mental Health Scores for ${selectedHours.trim()} Hours Spent on Social Media Daily`,
                                 xaxis: {title: 'Category'},
                                 yaxis: {title: 'Average Score', range: [0, 5]},
                                 margin: {t: 30}
