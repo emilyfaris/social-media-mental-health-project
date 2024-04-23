@@ -1,0 +1,12 @@
+
+  #age-pie-chart {
+    width: 50%;   
+    height: 400px; 
+    margin: auto;  
+  }
+
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
