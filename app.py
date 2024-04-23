@@ -1,7 +1,9 @@
 import flask
 import sqlalchemy
 from sqlalchemy import text
-from flask import render_template, request, jsonify
+from flask import render_template, jsonify
+import pandas as pd
+import seaborn as sns
 
 
 app = flask.Flask(__name__)
@@ -135,6 +137,34 @@ def get_age_select():
     for record in data:
         platform_data.append(dict(record._mapping))
     return jsonify(platform_data)
+
+
+@app.route('/visualization1')
+def visualization1():
+    # Generate the visualization using seaborn
+    sns.set_theme()
+    # Render the HTML template containing the visualization
+    return render_template('smmh.html')
+
+
+@app.route('/visualization2/data')
+def visualization2_data():
+    query = "SELECT occupation, frequency, distraction, restlessness, anxiety, concentration, self_compassion, sleeplessness, activity_interest_var, depression FROM smmh_data"
+    # Retrieve data from the database
+    data = get_data(query)
+    # Convert the data to a DataFrame
+    df = pd.DataFrame(data, columns=['Occupation', 'Frequency', 'Distraction', 'Restlessness', 'Anxiety', 'ConcentrationDifficulty', 'SelfCompassion', 'Sleeplessness', 'ActivityInterest', 'Depression'])
+    # Group the data by 'Occupation' and calculate the median for each column
+    occupation_results = df.groupby('Occupation')[['Frequency', 'Distraction','Restlessness','Anxiety','ConcentrationDifficulty','SelfCompassion','Sleeplessness','ActivityInterest', 'Depression']].median().reset_index()
+
+    # Melt the DataFrame to long format for Plotly visualization
+    melted_df = pd.melt(occupation_results, id_vars='Occupation', var_name='MentalHealth', value_name='Score')
+
+    # Convert the melted dataframe to a dictionary for JSON serialization
+    data = melted_df.to_dict(orient='records')
+
+    #Return the processed data as JSON
+    return jsonify(data)
 
 
 
